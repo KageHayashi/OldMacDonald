@@ -8,17 +8,17 @@ class Chick implements Animal {
 	}
 	public Chick(String type, String sound, String sound1) {
 		myType = type;
-    mySound = sound;
-    mySound1 = sound1;
+    		mySound = sound;
+    		mySound1 = sound1;
 	}
 	public String getSound() {
-    if (Math.random() < .5) {
-      return mySound;
-    }
-    else {
-      return mySound1;
-    }
-	}
+    		if (Math.random() < .5) {
+      			return mySound;
+   	}
+	    	else {
+      			return mySound1;
+    	}
+}
 	public String getType() {
 		return myType;
 	}
